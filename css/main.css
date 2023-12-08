@@ -1,0 +1,166 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#form-body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#index-body {
+  background-image: url("/images/mainbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--secondaryColor) !important;
+}
+
+.top-logo {
+  height: auto;
+  font-weight: bolder;
+  color: var(--secondaryColor) !important;
+  font-size: 55px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.material-symbols-outlined,
+.material-symbols-outlined a {
+  font-size: 60px;
+  color: var(--dominantColor) !important;
+  position: relative;
+  top: 0px;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: var(--accentColor) !important;
+}
+
+.nav-link {
+  font-size: 30px !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.footer-row {
+  background-color: var(--accentColor) !important;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footer-row a {
+  color: var(--secondaryColor) !important;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fa-social-media,
+.fa-social-media:hover {
+  font-size: 25px !important;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+/* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
+/*under main.css added*/
+
+/* Set the border color */
+.custom-toggler.navbar-toggler {
+  border-color: var(--secondaryColor) !important;
+}
+
+/*remove outline when hamburguer menu icon is clicked*/
+.custom-toggler:focus,
+.custom-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(7, 21, 38, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/* ADD THE CLASS .custom-toggler TO THE HAMBURGUER MENU*/
+
+#passages {
+  background-color: rgba(240, 160, 1, 0.5);
+}
+
+blockquote {
+  background-color: rgba(240, 160, 1, 0.5);
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0.25em 0px;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #000000 !important;
+}
+
+blockquote::before {
+  display: block;
+  padding-left: 10px;
+  content: "\201c";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #000000 !important;
+}
+
+blockquote cite {
+  color: #000000 !important;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
+
+.btn-success {
+  background-color: var(--accentColor) !important;
+  border: 0px !important;
+  border: none !important;
+}
+
+.btn-primary {
+  background-color: #000000 !important;
+  border: 0px !important;
+  border: none !important;
+}
+
+/*Slick Slider section*/
+
+.slider-container {
+  background: rgba(240, 160, 1, 0.5);
+  margin-top: 25px;
+  margin-botom: 25px;
+  padding-top: 20px;
+  padding-botom: 10px;
+}
+.main-slider {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
+.cuadro {
+  margin: 10px;
+}
